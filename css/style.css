@@ -1,0 +1,313 @@
+@font-face {
+    font-family: 'Quillin'; /* Nome que você vai usar para referenciar a fonte */
+    src: url('fontes/Quilin_PersonalUse.otf') format('truetype'); /* Caminho para o arquivo da fonte */
+    font-weight: normal; /* Opcional, ajuste conforme necessário */
+    font-style: normal; /* Opcional, ajuste conforme necessário */
+}
+
+@font-face {
+    font-family: 'Postre'; /* Nome que você vai usar para referenciar a fonte */
+    src: url('fontes/demo-postre.otf') format('truetype'); /* Caminho para o arquivo da fonte */
+    font-weight: normal; /* Opcional, ajuste conforme necessário */
+    font-style: normal; /* Opcional, ajuste conforme necessário */
+}
+
+header{
+    background-color: #FFFDF0;
+}
+
+.searc-container{
+    width: 496px;
+    height: 44px;
+    top: 34px;
+    left: 392px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+}
+.searc-container button{
+    width: 15.71px;
+    height: 16.29px;
+    top: 47px;
+    left: 851px;
+    gap: 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+
+}
+.headerlist{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerlist li{
+    font-family: 'Quilin';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #346D9E;
+    margin-right: 15px;
+}
+
+
+nav {
+    position: relative; /* Permite posicionar elementos filhos com position: absolute */
+    width: 100%;
+    height: 400px;
+    background-color: #F08AA0;
+    overflow: hidden; /* Esconde qualquer conteúdo que exceda o nav */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo das quatro imagens */
+.nav-img {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    /*object-fit: cover;  Garante que a imagem se ajuste ao tamanho sem distorção */
+}
+
+/* Imagem no canto superior esquerdo */
+.nav-img.top-left {
+    top: -20px;
+    left: 0;
+    width: 264.02px;
+    height: 100.74px;
+    
+}
+
+/* Imagem no canto superior direito */
+.nav-img.top-right {
+    top: 5px;
+    right: 10px;
+    width: 169.6px;
+    height: 169.13px;
+}
+
+/* Imagem no canto inferior esquerdo */
+.nav-img.bottom-left {
+    bottom: -50px;
+    left: 5px;
+    width: 339.5px;
+    height: 219.85px;
+}
+
+/* Imagem no canto inferior direito */
+.nav-img.bottom-right {
+    bottom: -20px;
+    right: 180px;
+    width: 145.42px;
+    height: 94.03px;
+
+    
+}
+
+/* Estilização do texto */
+nav h1 {
+    font-family: 'Quilin';
+    font-size: 130px;
+    font-weight: 400;
+    line-height: 104px;
+    text-align: center;
+    color: #BE2233;
+    margin: 10px;
+}
+
+nav p {
+    font-family: 'Quilin';
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 46.4px;
+    text-align: center;
+    color: #FFFDF0;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+.lancamentos-text{
+    font-family: Postre; 
+    font-size: 36px; 
+    font-weight: 400; 
+    line-height: 40.14px; 
+    text-align: left; 
+    color: #CC876A;
+    text-align: center;
+}
+.imagem-produto{
+    width: 243px;
+    height: 237px;
+    border-radius: 5px 5px 0px 0px;
+    display: grid;
+
+}
+.div-lancamento{
+    width: 88px;
+    height: 21px;
+    border-radius: 5px;
+    background: #346D9E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 75px;
+    margin-top: -10px;
+}
+.lancamento{
+    font-family: 'Postre';
+    font-size: 11px;
+    text-align: center;
+    color: #FFFDF0;
+}
+.produtos-div{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    margin-left: 100px;
+    margin-right: 80px;
+}
+.preco-produto{
+    width: 239px;
+    height: 150px;
+    border-radius: 0px 0px 5px 5px;
+    border: 2px solid #DEDEDE;
+}
+
+.preco-produto h3, p{
+    color: #346D9E;
+}
+.preco-produto h3{
+    font-family: 'Quillin';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26.76px;
+    text-align: left;
+    margin-top: -10px;
+
+}
+.preco-produto p{
+    font-family: 'Quillin';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16.73px;
+    text-align: left;   
+}
+
+.nome-produto{
+    font-family: 'Postre';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26.76px;
+    text-align: left;
+    color: #CC876A;
+    text-align: center;
+    
+}
+
+
+.div-imagens-maiores-all {
+    position: relative; /* Permite o uso de posição absoluta dentro deste bloco */
+    width: 494px;
+    height: 414px;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.div-imagens-maiores-text {
+    position: absolute; /* Posiciona o texto sobre a imagem */
+    top: 50%; /* Move para 50% da altura */
+    left: 50%; /* Move para 50% da largura */
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.div-imagens-maiores-text h1 {
+    font-size: 32px;
+    color: white; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Postre';
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 89.2px;
+    text-align: left;
+    
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #2668A2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 300px;
+}
+
+
+
+.ul-geral{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 50px;
+}
+
+.ul-geral li{
+    list-style-type: none;
+}
+
+.footer-logo{
+    font-family: 'Quilin';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #FFFFFF;
+    
+}
+.footer-li-tittle h2{
+    font-family: 'Postre';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.3px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-li-tittle ul li{
+    font-family: 'Postre';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.84px;
+    text-align: left;
+    color: #CCAD6E;
+
+}
+.footer-li-tittle ul{
+    margin-top: -20px;
+    margin-left: 25px;
+}
