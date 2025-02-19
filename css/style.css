@@ -12,11 +12,38 @@
     font-style: normal; /* Opcional, ajuste conforme necessário */
 }
 
+body{
+    margin: 0;
+}
+
 header{
     background-color: #FFFDF0;
 }
+.header-1{
+    display: flex;
+    flex-direction:  row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.header-1 h1{
+    color: rgba(190, 34, 51, 1);
 
+}
+
+hr{
+    width: 1032px;
+    top: 101px;
+    left: 123px;
+    border-width: 2px;
+    border: 2px solid rgba(244, 217, 210, 1)
+}
 .searc-container{
+    display: flex;
+    align-items: center;
+}
+.searc-container input{
+    border: none;
     width: 496px;
     height: 44px;
     top: 34px;
@@ -24,6 +51,62 @@ header{
     gap: 0px;
     border-radius: 5px 0px 0px 0px;
     opacity: 0px;
+    background: rgba(244, 217, 210, 1);
+    color: rgba(204, 135, 106, 1);
+    line-height: 19.2px;
+    letter-spacing: 0%;
+    font-family: Quilin;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.searc-container input::-webkit-input-placeholder{
+    color: rgba(204, 135, 106, 1);
+
+}
+
+.carrinho{
+    display: flex;
+    align-items: center;
+}
+.conta{
+    display: flex;
+    flex-direction: column;
+}
+.conta a{
+    text-decoration: none;
+    font-family: 'Postre';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16.73px;
+    letter-spacing: 0%;
+
+}
+.elipse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 25px;
+    width: 26px;
+    height: 26px;
+    background: rgba(204, 135, 106, 1);
+}
+
+.elipse h2{
+    font-family: Postre;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17.84px;
+    letter-spacing: 0%;
+    color: rgba(255, 253, 240, 1);
+
+    margin: 0;
+}
+
+.material-symbols-outlined{
+    margin-left: -40px;
+    color: rgba(204, 135, 106, 1);
 }
 .searc-container button{
     width: 15.71px;
@@ -260,14 +343,82 @@ footer{
 }
 
 .newsletter{
+    margin-top: 60px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 300px;
+    gap: 230px;
+}
+.newsletter h2,h3{
+    margin: 0;
+    font-family: Postre;
+    font-weight: 400;
+    letter-spacing: 0%;
 }
 
+.newsletter h2{
+    font-size: 20px;
+    line-height: 22.3px;
+    color: rgba(255, 255, 255, 1);
+}
 
+.newsletter h3{
+    font-size: 16px;
+    line-height: 17.84px;
+    color: rgba(204, 173, 110, 1);
 
+} 
+.newsletter-text{
+    gap: 10px;
+}
+.newsletter-email{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background: rgba(244, 217, 210, 1);
+
+}
+.newsletter-email input{
+    border: none;
+    background: rgba(244, 217, 210, 1);
+    width: 340px;
+    height: 44px;
+    border-radius: 5px;
+    font-family: Postre;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17.84px;
+    letter-spacing: 0%;
+    color: rgba(204, 173, 110, 1);
+}
+
+.newsletter-email input::-webkit-input-placeholder{
+    color: rgba(204, 173, 110, 1);
+    
+}
+.newsletter-email button{
+    background: rgba(204, 135, 106, 1);
+    border: none;
+    width: 160px;
+    height: 44px;
+    border-radius: 5px;
+    font-family: Postre;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17.84px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(244, 217, 210, 1);
+}
+.redes {
+    display: flex;
+    gap: 22px;   
+}
+.redes img{
+    width: 28px;
+    height: 27px;  
+}
 .ul-geral{
     display: flex;
     flex-direction: row;
